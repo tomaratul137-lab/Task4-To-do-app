@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e3e3e3;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.task-actions button {
+  margin-left: 5px;
+}
